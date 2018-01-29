@@ -1,6 +1,6 @@
 ### CSS exam
 
-#### Descriptions:
+#### Design Docs:
 	- https://docs.google.com/presentation/d/e/2PACX-1vSmGk9bUvA8YmT6cnQsSAgMP5vruipv7UPIWS6YDP0QpjW80932vxr2PDR7oSAy4ArKOEolifUGbk9Q/pub?start=false&loop=false&delayms=3000
 
 #### Text copy:
