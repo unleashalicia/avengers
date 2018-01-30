@@ -112,8 +112,34 @@ body > img {
     width: 80%;
 }
 
-#intro > img {
+#below-first-panel {
+    width: 100%;
+    position: relative;
+    height: 100px;
+}
+
+#below-first-panel > img {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 0;
+    right: 10%;
+}
+
+#below-first-panel > button {
+    background-color: #637C86;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    height: 50%;
+    width: 15%;
+    border: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#left-menu {
+    position: absolute;
+    top: 25%;
+    left: 0.5%;
 }
