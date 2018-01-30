@@ -29,6 +29,7 @@ body > img {
 
 .section, #nav {
     width: 100%;
+    position: relative;
 }
 
 #header {
@@ -64,7 +65,7 @@ body > img {
 #nav li {
     width: 20%;
     height: 100%;
-    font-size: 20px;
+    /*font-size: 2px;*/
 }
 
 #nav li div {
@@ -73,6 +74,32 @@ body > img {
     background-repeat: no-repeat;
     padding: 0;
     height: 100%;
+    position: relative;
+}
+
+#nav li:first-child div {
+    background-position: bottom;
+}
+
+#nav span:first-child {
+    position: absolute;
+    top: 12%;
+    left: 13%;
+}
+
+#nav span:last-child{
+    position: absolute;
+    bottom: 16%;
+    right: 5%;
+    font-size: 8px;
+    color: gray;
+    letter-spacing: 1.5px;
+}
+
+#nav img {
+    position: absolute;
+    left: 13%;
+    bottom: 20%;
 }
 
 #intro > .panel {
@@ -83,4 +110,10 @@ body > img {
 #intro > .panel > img {
     border: 6px solid #232527;
     width: 80%;
+}
+
+#intro > img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
