@@ -65,7 +65,6 @@ body > img {
 #nav li {
     width: 20%;
     height: 100%;
-    /*font-size: 2px;*/
 }
 
 #nav li div {
@@ -102,7 +101,7 @@ body > img {
     bottom: 20%;
 }
 
-#intro > .panel {
+.panel {
     display: flex;
     justify-content: center;
 }
@@ -136,10 +135,69 @@ body > img {
     border: 0px;
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 #left-menu {
     position: absolute;
     top: 25%;
     left: 0.5%;
+}
+
+#acts {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+#acts div:first-child {
+    width: 80%;
+    height: 50px;
+    color: #FFE2C2;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#acts .panel {
+    background-color: rgba(45,72,86, 0.3);
+    height: 300px;
+    border: 6px solid #2D424B;
+    width: 100%;
+    position: relative;
+    align-self: flex-end;
+}
+
+#acts .panel .text {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    width: 55%;
+    height: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.25;
+    font-weight: lighter;
+}
+
+#acts .panel .text p:first-child {
+    color: #FF911F;
+    font-size: 18px;
+}
+
+#acts .panel img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 75%;
+}
+
+#acts div:last-child {
+    height: 50px;
+    position: relative;
+}
+
+#acts div:nth-child(3) img {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
