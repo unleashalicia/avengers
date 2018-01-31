@@ -194,7 +194,7 @@ body > img {
     color: #FFE2C2;
 }
 
-#acts .panel .text {
+#acts .panel .text, #post-visit .panel .text {
     position: absolute;
     left: 5%;
     top: 2%;
@@ -205,10 +205,13 @@ body > img {
     font-size: 18px;
 }
 
-#acts .panel img {
+#acts .panel img, #post-visit .panel img {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+#acts .panel img {
     height: 75%;
 }
 
@@ -226,7 +229,7 @@ body > img {
 
 .tab p {
     position: absolute;
-    right: 5%;
+    right: 7%;
     top: 0;
     font-size: 8px;
     color: gray;
@@ -237,14 +240,18 @@ body > img {
     height: 300px;
 }
 
-#features .panel > img {
+#visit .panel > img {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-#features .text {
+#visit .text {
     position: absolute;
     top: 2%;
     right: 5%;
+}
+
+#post-visit .panel img {
+    height: 100%;
 }
