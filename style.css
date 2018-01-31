@@ -101,29 +101,29 @@ body > img {
     bottom: 20%;
 }
 
-.panel {
+.panel, .station-panel {
     display: flex;
     justify-content: center;
 }
 
-#intro > .panel > img {
+.station-panel > img {
     border: 6px solid #232527;
     width: 80%;
 }
 
-#below-first-panel {
+#below-station-panel {
     width: 100%;
     position: relative;
     height: 100px;
 }
 
-#below-first-panel > img {
+#below-station-panel > img {
     position: absolute;
     top: 0;
     right: 10%;
 }
 
-#below-first-panel > button {
+#below-station-panel > button {
     background-color: #637C86;
     color: black;
     position: absolute;
@@ -144,27 +144,44 @@ body > img {
     left: 0.5%;
 }
 
-#acts {
+.section {
     display: flex;
     justify-content: center;
+    width: 100%;
+}
+
+.section > div {
+    width: 80%;
+    justify-content: center;
+}
+
+#acts {
     height: 400px;
 }
 
 #acts div:first-child {
-    width: 80%;
+    /*width: 100%;*/
     height: 50px;
     color: #FFE2C2;
     font-size: 22px;
     text-transform: uppercase;
 }
 
-#acts .panel {
+.panel {
     background-color: rgba(45,72,86, 0.3);
-    height: 300px;
     border: 6px solid #2D424B;
-    width: 100%;
     position: relative;
-    align-self: flex-end;
+}
+
+#acts .panel {
+    height: 300px;
+}
+
+#acts .panel img {
+    height: 75%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 #acts .panel .text {
@@ -179,7 +196,7 @@ body > img {
     font-weight: lighter;
 }
 
-#acts .panel .text p:first-child {
+.heading {
     color: #FF911F;
     font-size: 18px;
 }
@@ -196,8 +213,17 @@ body > img {
     position: relative;
 }
 
-#acts div:nth-child(3) img {
+.tab img {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.tab p {
+    position: absolute;
+    right: 5%;
+    top: 0;
+    font-size: 8px;
+    color: gray;
+    letter-spacing: 1.5px;
 }
