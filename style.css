@@ -111,19 +111,19 @@ body > img {
     width: 80%;
 }
 
-#below-station-panel {
+.button-div {
     width: 100%;
     position: relative;
     height: 100px;
 }
 
-#below-station-panel > img {
+.button-div > img {
     position: absolute;
     top: 0;
     right: 10%;
 }
 
-#below-station-panel > button {
+button {
     background-color: #637C86;
     color: black;
     position: absolute;
@@ -159,7 +159,7 @@ body > img {
     height: 400px;
 }
 
-#acts > div >div:first-child {
+.section-header {
     height: 50px;
     color: #FFE2C2;
     font-size: 22px;
@@ -184,12 +184,12 @@ body > img {
     top: 0;
 }
 
-.panel .text {
+.panel .text, #features li span {
     width: 55%;
     height: 100%;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
-    line-height: 1.25;
+    line-height: 1.5;
     font-weight: lighter;
     color: #FFE2C2;
 }
@@ -254,4 +254,78 @@ body > img {
 
 #post-visit .panel img {
     height: 100%;
+}
+
+#features > div {
+    width: 80%;
+}
+
+#features ol {
+    list-style: none;
+    counter-reset: li;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+#features ul {
+    margin: 0;
+    padding: 0;
+}
+
+#features li::before {
+    content: counter(li);
+    margin-right: 1%;
+    color: #FF911F;
+}
+
+#features li {
+    counter-increment: li;
+    margin: 0;
+    padding: 0;
+}
+
+.square-bullet {
+    color: #FF911F;
+    list-style-type: square;
+}
+
+#features li span {
+    margin-left: 2%;
+}
+
+#features .button-div button {
+    position: relative;
+}
+
+#features .button-div button:first-child {
+    left: 0;
+}
+
+#features .button-div button:last-child {
+    left: 70px;
+}
+
+.menu-image {
+    position: absolute;
+}
+
+/*#lm {*/
+    /*left: 0;*/
+    /*top: 50%;*/
+/*}*/
+
+#rm {
+    right: 0;
+    top: 50%;
+}
+
+#lb {
+    left: 0;
+    bottom: 0;
+}
+
+#rb {
+    right: 0;
+    bottom: 0;
 }
